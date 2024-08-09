@@ -1,0 +1,20 @@
+.contain {
+    display: flex;
+}
+
+.video-player {
+    flex: 70%;
+    position: relative;
+}
+
+.video-player video {
+    width: 100%;
+    height: auto;
+}
+
+#fullscreen-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
